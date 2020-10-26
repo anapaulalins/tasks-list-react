@@ -1,0 +1,124 @@
+.todo-list-container {
+  width: 90%;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.todo-form {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+  align-items: center;
+}
+.input-todo {
+  width: 250px;
+  border-bottom: 2px solid #712d9e;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+
+.todo-content-element,
+.todo-content-element-in-progress,
+.todo-element-completed-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+.todo-content,
+.todo-list-in-progress-content,
+.todo-list-completed-content {
+  width: 250px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border-radius: 4px;
+  position: relative;
+  align-items: center;
+}
+.todo-content input,
+.todo-list-in-progress-content input,
+.todo-list-completed-content input {
+  width: 200px;
+}
+.task-color:nth-child(5n + 1) {
+  background: #fdfd96;
+}
+
+.task-color:nth-child(5n + 2) {
+  background: #afff94;
+}
+.task-color:nth-child(5n + 3) {
+  background: #ff94ff;
+}
+.task-color:nth-child(5n + 4) {
+  background: #ff94b2;
+}
+.task-color:nth-child(5n + 5) {
+  background: #a14ac4;
+}
+.todo-content-element-in-progress,
+.todo-element-completed-content {
+  margin-top: 60px;
+}
+.completed-container {
+  margin-bottom: 50px;
+}
+.more-content {
+  position: absolute;
+  right: -50px;
+  top: 25px;
+  background: #ffffff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px #888888;
+  z-index: 100;
+}
+.more-content button {
+  background: #ff94b2;
+}
+.trash-more {
+  display: flex;
+  align-items: center;
+}
+.next-progress {
+  margin-left: 3px;
+}
+.next-completed {
+  margin-left: 3px;
+}
+
+.clear {
+  margin-left: 5px;
+}
+.clear button {
+  background: #a14ac4;
+  font-weight: 600;
+  color: #1a1818;
+  font-size: 16px;
+}
+.in-progress-container h1 {
+  background: #f03c6f;
+}
+.completed-container h1 {
+  background: #76bd5e;
+}
+.todo-container h1 {
+  background: #fdfd96;
+}
