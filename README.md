@@ -1,6 +1,8 @@
 # 🔗 tasks-list-react
 
 This is a simple task list application in react.
+<br /> 
+<br /> 
 ![1](https://img.shields.io/static/v1?label=code&message=react&color=blueviolet&style=plastic&logo=react)
 ![3](https://img.shields.io/static/v1?label=license&message=MIT&color=blue&style=plastic)
 
