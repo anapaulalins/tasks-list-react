@@ -20,6 +20,6 @@ Completed ✅
 
 # 👩‍💻 Author
 
-Ana Paula Lins 🚀
+[Ana Paula Lins](https://github.com/anapaulalins) 🚀
 
 
